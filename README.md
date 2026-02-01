@@ -1,14 +1,14 @@
-# 🧬 DNA Sequence-Based Disease Prediction
+# DNA Sequence-Based Disease Prediction
 
 This project uses machine learning to analyze DNA sequences and predict the likelihood of genetic diseases. It aims to assist early diagnostics by identifying patterns in DNA associated with various inherited conditions.
 
-## 📌 Objective
+## Objective
 
 - Analyze and process raw DNA sequence data.
 - Extract key features from the sequences (e.g., nucleotide frequencies, k-mer analysis).
 - Train and evaluate machine learning models for disease prediction.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Language**: Python  
 - **Libraries**: 
@@ -18,7 +18,7 @@ This project uses machine learning to analyze DNA sequences and predict the like
   - Matplotlib – for visualization
 - **Models Used**: SVM, Random Forest, CNN
 
-## 📂 Dataset
+## Dataset
 
 - DNA sequence data obtained from public sources such as:
   - [NCBI GenBank](https://www.ncbi.nlm.nih.gov/genbank/)
@@ -26,20 +26,20 @@ This project uses machine learning to analyze DNA sequences and predict the like
   
 Each sample was labeled as either **healthy** or **disease-prone**, based on genetic markers.
 
-## 🔍 Features Extracted
+## Features Extracted
 
 - K-mer frequency vectors (e.g., 3-mer, 4-mer counts)
 - GC content percentage
 - Sequence length
 - Nucleotide distribution (A, T, C, G)
 
-## 🧠 Model Training & Evaluation
+## Model Training & Evaluation
 
 - Split data into training and test sets (80:20).
 - Trained models: SVM, Random Forest, and a simple CNN.
 - Evaluation metrics: Accuracy, Precision, Recall, F1-score
 
-### ✅ Final Results
+### Final Results
 
 | Model        | Accuracy |
 |--------------|----------|
@@ -47,13 +47,13 @@ Each sample was labeled as either **healthy** or **disease-prone**, based on gen
 | Random Forest| 85%      |
 | CNN          | 87%      |
 
-## 📈 Outcome
+## Outcome
 
 - Developed a pipeline to predict genetic disease risk using DNA sequences.
 - Achieved high accuracy in classifying disease-prone vs. healthy samples.
 - The project demonstrates the potential of using DNA for early disease prediction.
 
-## 🚀 Future Work
+## Future Work
 
 - Include more diverse datasets.
 - Implement deep learning models (e.g., LSTM or transformers for sequential data).
